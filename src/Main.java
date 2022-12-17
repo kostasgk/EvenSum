@@ -1,12 +1,5 @@
 
-import hudson.FilePath;
-import hudson.remoting.Channel;
-import jenkins.model.Jenkins;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
