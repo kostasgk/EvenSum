@@ -4,6 +4,9 @@
 public class EvenSum {
     public static void main(String[] args) {
         System.out.println(getEvenDigitSum(2596));
+        System.out.println(getEvenDigitSum(115));
+        System.out.println(getEvenDigitSum(354));
+        System.out.println(getEvenDigitSum(3254324));
     }
 
     public static int getEvenDigitSum(int number){
