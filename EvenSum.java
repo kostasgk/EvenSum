@@ -1,7 +1,7 @@
 
 
 
-public class Main {
+public class EvenSum {
     public static void main(String[] args) {
         System.out.println(getEvenDigitSum(2596));
     }
