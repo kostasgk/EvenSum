@@ -1,15 +1,19 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven:3.8.6-adoptopenjdk-17' 
-            args '-v /root/.m2:/root/.m2' 
-        }
-    }
-    stages {
-        stage('Build') { 
+   
+        agent any
+
+        stages {
+            stage('Compile) {
             steps {
-                sh 'mvn -B -DskipTests clean package' 
+                echo 'javac EvenSum.java'
+                     
             }
         }
+     stage('Run') {
+            steps {
+                echo 'java EvenSum'
+                     
+            }
+        }   
     }
 }
